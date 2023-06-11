@@ -3,9 +3,9 @@ import MovieCard from './MovieCard'
 
 
 const Watchlist = (props) => {
-  const {watchList} = props
+  const {watchList, removeMovie} = props
 
-  const movieDisplay = watchList.map((movie, index) => { return (<MovieCard movie={movie}  watchList={watchList} />
+  const movieDisplay = watchList.map((movie, index) => { return (<MovieCard movie={movie}  watchList={watchList} removeMovie = {removeMovie}/>
     );
   })
 

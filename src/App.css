@@ -49,6 +49,8 @@ button {
 .movie-card {
   width: 300px;
   display: flex;
+  border-style: double;
+  border-color: gray;
   flex-direction: column;
   align-items: center;
   text-align: center;
@@ -71,4 +73,5 @@ main {
   top: 70px;
   right: 0;
   text-align: center;
+  background-color: #313131;
 }
